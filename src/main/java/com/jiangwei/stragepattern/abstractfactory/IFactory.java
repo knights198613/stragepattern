@@ -3,23 +3,23 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ³éÏó¹¤³§Àà
+ * Desc: å·¥å‚æŠ½è±¡ç±»
  */
 public abstract class IFactory {
     /**
-     * Éú²úCPU
+     * ç”Ÿäº§CPU
      * @return
      */
     abstract CpuProduct createCpu();
 
     /**
-     * Éú²úÊó±ê
+     * ç”Ÿäº§é¼ æ ‡
      * @return
      */
     abstract MouseProduct createMouse();
 
     /**
-     * Éú²úÓ²ÅÌ
+     * ç”Ÿäº§ç¡¬ç›˜
      * @return
      */
     abstract DiskProduct createDisk();

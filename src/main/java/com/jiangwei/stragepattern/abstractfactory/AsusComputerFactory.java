@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: »ªË¶¼ÆËã»ú¹¤³§
+ * Desc: åç¡•è®¡ç®—æœºå·¥å‚
  */
 public class AsusComputerFactory extends IFactory {
 

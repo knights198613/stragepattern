@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ³éÏó¹¤³§µÄ¿Í»§¶Ë
+ * Desc: æŠ½è±¡å·¥å‚çš„æµ‹è¯•å®¢æˆ·ç«¯
  */
 public class Client {
 
@@ -13,7 +13,7 @@ public class Client {
         IFactory iFactory;
 
         int x = 0;
-        System.out.println("ÇëÑ¡ÔñÄãËùÒª×é×°µçÄÔµÄºÄ²Ä£º 1£ºAsusµçÄÔ   2£ºÆ»¹ûµçÄÔ 3:ÍË³ö");
+        System.out.println("è¯·é€‰æ‹©ä½ æ‰€è¦ç»„è£…ç”µè„‘çš„è€—æï¼š 1ï¼šAsusç”µè„‘   2ï¼šè‹¹æœç”µè„‘ 3:é€€å‡º");
         Scanner scanner = new Scanner(System.in);
 
         while(true) {

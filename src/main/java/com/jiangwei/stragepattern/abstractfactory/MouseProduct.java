@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: 鼠标的产品接口
+ * Desc: 榧犳爣浜у搧鎺ュ彛
  */
 public interface MouseProduct {
 

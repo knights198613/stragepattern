@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ƻ��Ӳ��
+ * Desc: 苹果硬盘产品
  */
 public class AppleDisckProduct implements DiskProduct {
 

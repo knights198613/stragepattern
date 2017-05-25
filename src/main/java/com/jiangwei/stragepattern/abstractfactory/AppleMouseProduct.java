@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: Æ»¹ûÊó±ê
+ * Desc: è‹¹æœé¼ æ ‡äº§å“
  */
 public class AppleMouseProduct implements MouseProduct {
 

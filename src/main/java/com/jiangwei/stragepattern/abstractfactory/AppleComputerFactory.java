@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: Æ»¹û¼ÆËã»ú¹¤³§
+ * Desc: è‹¹æžœè®¡ç®—æœºå·¥åŽ‚
  */
 public class AppleComputerFactory extends IFactory {
 

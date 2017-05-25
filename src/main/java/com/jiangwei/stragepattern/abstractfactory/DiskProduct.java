@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: 硬盘的产品接口类
+ * Desc: 纭洏浜у搧鎺ュ彛
  */
 public interface DiskProduct {
 

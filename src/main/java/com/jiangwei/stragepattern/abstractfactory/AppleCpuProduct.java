@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.abstractfactory;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ƻ��CPU
+ * Desc: 苹果CPU产品
  */
 public class AppleCpuProduct implements CpuProduct {
 
