@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.observerpattern;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ³éÏó¹Û²ìÕß
+ * Desc: è§‚å¯Ÿè€…æŠ½è±¡ç±»
  */
 public abstract class Observer {
 
@@ -18,12 +18,12 @@ public abstract class Observer {
     }
 
     /**
-     * ³éÏóµÄÖ§Ô®¶ÓÓÑµÄ·½·¨
+     * å¸®åŠ©é˜Ÿå‹
      */
     public abstract void helpAllys();
 
     /**
-     * ³éÏóµÄ±»¹¥»÷Ê±µÄ·½·¨
+     * è¢«æ”»å‡»å‘å‡ºæ•‘æ´
      * @param allyBattleCenter
      */
     public abstract void attacked(AllyBattleCenter allyBattleCenter);

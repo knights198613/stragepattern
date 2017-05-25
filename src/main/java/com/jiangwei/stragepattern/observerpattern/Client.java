@@ -3,7 +3,7 @@ package com.jiangwei.stragepattern.observerpattern;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ¹Û²ìÕßÄ£Ê½µÄ¿Í»§¶Ë
+ * Desc: è§‚å¯Ÿè€…æµ‹è¯•å®¢æˆ·ç«¯
  */
 public class Client {
 
@@ -15,23 +15,23 @@ public class Client {
 
 
         conerctBattleCenter = new ConerctBattleCenter();
-        conerctBattleCenter.setAllyName("Ğ°¶ñÁªÃË");
+        conerctBattleCenter.setAllyName("é‚ªæ¶è”ç›Ÿ");
 
         american = new AmericanPlayer();
-        american.setName("ÃÀ¹úÌ¹¿Ë´ó¶Ó");
+        american.setName("æµ·è±¹çªå‡»é˜Ÿ");
 
         chinese = new ChinesePlayer();
-        chinese.setName("Ğ¡Ã×¼Ó²½Ç¹¶Ó");
+        chinese.setName("äººæ°‘è§£æ”¾å†›é˜Ÿ");
 
         russia = new RussiaPlayer();
-        russia.setName("Õ½¶·Ãû×å¶Ô");
+        russia.setName("ç–¯ç‹‚å°¤é‡Œé˜Ÿ");
 
 
         conerctBattleCenter.addObservers(american);
         conerctBattleCenter.addObservers(chinese);
         conerctBattleCenter.addObservers(russia);
 
-        //Ã«×Ó±»µÂ¾ü¹¥»÷
+        //æ¯›å­è¢«æ”»å‡»
         russia.attacked(conerctBattleCenter);
 
     }

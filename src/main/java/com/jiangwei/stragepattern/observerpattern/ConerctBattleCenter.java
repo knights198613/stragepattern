@@ -3,11 +3,11 @@ package com.jiangwei.stragepattern.observerpattern;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ¾ßÌåµÄÕ½ÕùÖ¸»ÓËù
+ * Desc: å…·ä½“æˆ˜å½¹æŒ‡æŒ¥ä¸­å¿ƒ
  */
 public class ConerctBattleCenter extends AllyBattleCenter {
     /**
-     * Õ½ÕùÖ¸»ÓËùÃû³Æ
+     * è”ç›Ÿåç§°
      */
     private String allyName;
 
@@ -17,7 +17,7 @@ public class ConerctBattleCenter extends AllyBattleCenter {
 
     public void setAllyName(String allyName) {
         this.allyName = allyName;
-        System.out.println("ÁªÃËÒÑ½¨Á¢£¬Ãû³Æ£º"+getAllyName());
+        System.out.println("è”ç›Ÿå»ºç«‹ï¼Œåç§°ä¸ºï¼š"+getAllyName());
     }
 
     void noticAllObservers(String name) {

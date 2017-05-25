@@ -3,16 +3,16 @@ package com.jiangwei.stragepattern.observerpattern;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ÖĞ¹úÈËÃñ½â·Å¾ü
+ * Desc: ä¸­å›½é˜Ÿ
  */
 public class ChinesePlayer extends Observer {
 
     public void helpAllys() {
-        System.out.println("ÖĞ¹úÈËÃû½â·Å¾üÕ½ÎŞ²»Ê¤£¬"+getName()+"ÎÒ½«ÅÉÑ©±ªÍ»»÷¶ÓÖ§Ô®Äã£¡");
+        System.out.println("åšæŒä½"+getName()+"é©¬ä¸Šæ´¾å…µé€Ÿæ´ä½ ");
     }
 
     public void attacked(AllyBattleCenter allyBattleCenter) {
-        System.out.println("¾È¾ÈÎÒ, ÈÕ±¾¹í×ÓÀ´´òÎÒÁË");
+        System.out.println("æ•‘å‘½ï¼Œä¸­å›½é˜Ÿè¢«æ”»å‡»äº†");
         allyBattleCenter.noticAllObservers(getName());
     }
 }

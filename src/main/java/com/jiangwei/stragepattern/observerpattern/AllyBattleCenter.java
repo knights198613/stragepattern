@@ -6,32 +6,32 @@ import java.util.List;
 /**
  * Created by weijiang
  * Date: 2017/5/22
- * Desc: ³éÏóµÄÕ½ÕùÖ¸»ÓËù
+ * Desc: æŠ½è±¡çš„æˆ˜å½¹æŒ‡æŒ¥ä¸­å¿ƒ
  */
 public abstract class AllyBattleCenter {
 
     List<Observer> observerList = new ArrayList<Observer>();
 
     /**
-     * ×¢²á¹Û²ìÕß
+     * æ–°å¢è§‚å¯Ÿè€…
      * @param observer
      */
     public void addObservers(Observer observer) {
-        System.out.println(observer.getName()+"¼ÓÈëÁªÃË");
+        System.out.println(observer.getName()+"åŠ å…¥æˆ˜æ–—è”ç›Ÿ");
         observerList.add(observer);
     }
 
     /**
-     * ÒÆ³ı¹Û²ìÕß
+     * ç§»é™¤è§‚å¯Ÿè€…
      * @param observer
      */
     public void removeObserver(Observer observer) {
-        System.out.println(observer.getName()+"Àë¿ªÁªÃË");
+        System.out.println(observer.getName()+"ç¦»å¼€æˆ˜æ–—è”ç›Ÿ");
         observerList.remove(observer);
     }
 
     /**
-     * Í¨ÖªËùÓĞµÄ¹Û²ìÕß(³ıµ±Ç°±»¹¥»÷µÄ¶ÓÓÑ)
+     * é€šçŸ¥è§‚å¯Ÿè€…ï¼ˆæ’é™¤å½“å‰è¢«æ”»å‡»çš„è§‚å¯Ÿè€…ï¼‰
      */
     abstract void noticAllObservers(String name);
 }
