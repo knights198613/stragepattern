@@ -10,6 +10,12 @@ package com.jiangwei.stragepattern.simplefactory;
  */
 public class ProductFactory {
 
+    /**
+     * 通过不同的产品标示字符串获取不同产品的工厂方法
+     * 返回抽象产品类体现了《里氏代换原则》
+     * @param type
+     * @return
+     */
     public static Product getProdcutInstance(String type) {
         if(type.equals("phone")) {
             return new Phone();
