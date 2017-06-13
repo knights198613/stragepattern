@@ -1,5 +1,7 @@
 package com.jiangwei.stragepattern.singleton;
 
+import java.util.Random;
+
 /**
  * Created by weijiang
  * Date: 2017/6/13
@@ -23,4 +25,6 @@ public class HurgrySingleTon {
     public static HurgrySingleTon getInstance() {
         return instance;
     }
+
+
 }
